@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
 PY=$(cat <<EOF
+---
+title: "Banknote Classification"
+output: html_document
+---
 <style>
 
   @font-face {
@@ -29,8 +33,7 @@ PY=$(cat <<EOF
   }
 
 </style>
-
-<h1>Classification of Real and Fake Banknotes</h1>
+<h3>Differentiating between real and fake</h3>
 <p>Sam Hopkins</p>
 
 <h3>Initialize workspace and read data</h3>
